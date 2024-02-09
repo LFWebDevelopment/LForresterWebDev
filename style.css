@@ -1,0 +1,487 @@
+body{
+    background-color: #7b7b7c;}
+
+#header{
+    background-color: #424242;}
+
+#footer{
+    background-color: #424242;clear:left}
+
+.fs-4{
+    font-family: 'Diphylleia', serif;    
+    color:rgb(192, 193, 195);
+    font-weight:bold;
+    margin-right:20px;
+    }
+
+.bigtext{
+    font-family: 'Protest Riot', sans-serif;
+    color:white;
+    font-weight:bold;
+    font-size:46pt;
+    Padding-top:3rem;
+    margin-left:17rem;
+    }
+
+.littletext{
+    font-family: 'Diphylleia', serif;    
+    color:rgb(192, 193, 195);
+    font-size:18pt;
+    font-weight:bold;
+    margin-left:6rem;
+    margin-top:3rem;}
+
+.nav-link{
+    color:#b8b9ba; 
+    margin-top:1rem;}
+
+#current{
+    background-color: white; 
+    color:#5b5b5b}
+
+.logo{
+    height:4rem;
+    border-radius: 50%; 
+    margin-right:15px;}
+.devimage{
+    height:22rem; 
+    border-radius:20%;
+    margin-left:4rem;}
+.lightbulb{
+    height:12rem;
+    margin-left:16rem;
+    margin-bottom:0;padding-bottom:0;}
+
+.shove{
+    margin-left:10rem}
+
+#maingrid{
+    display:grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr auto;}
+
+#copyright{
+    color:rgb(192, 193, 195)!important;}
+
+#bioflex{
+    display:Flex;
+    gap:60px;}
+
+.biopic{
+    height:20rem;
+    border-radius: 40%;
+    float: left; 
+    margin-right:2rem; 
+    margin-top:3rem;}
+
+.acheivements{
+    margin-left:7rem;
+    margin-right:7rem; 
+    margin-top:1rem;}
+
+.devpic{
+    height:13rem; 
+    margin-left:5rem; 
+    margin-top:1rem;}
+
+h1{
+    font-family:'Protest Riot', sans-serif;
+    color:white;
+    font-weight:bold;}
+h2{
+    font-family:'Protest Riot', sans-serif;
+    color:white;}
+p{
+    font-family: 'Diphylleia', serif;    
+    color:rgb(192, 193, 195);}
+
+#skillset{
+    display:flex; 
+    justify-content: Center;}
+
+.portfolioh1{display:flex; 
+    justify-content: Center;}
+
+.container1{
+    display:grid; 
+    grid-template-columns: 200px minmax(200px,600px) auto; 
+    grid-template-rows: repeat(9, 1fr);} 
+
+.box{
+    padding-left:5rem; 
+    height:4rem; 
+    margin-top:2rem; }
+
+.skilldes{
+    margin-top:2.5rem; 
+    margin-left:2rem; 
+    font-size:16pt;}
+
+.uiux{
+    height:12rem; 
+    border-radius:20%; 
+    margin-left:11rem;}
+
+#uitext{
+    margin-left:10rem}
+
+.developerpic{
+    height:12rem;
+    margin-left:15rem;}
+
+.laptop{
+    height:12rem; 
+    margin-left:12rem; 
+    border-radius:20%;}
+
+.wrapper{
+    display:grid; 
+    grid-template-columns: repeat(4,1fr);
+    margin-top:2rem;
+    margin-left: 2rem;
+    margin-right:2rem;
+    gap:10px;}
+
+.portfolio{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;}
+
+.cssSS{
+    height:12rem;
+    border-radius:10%;}
+.flexSS{
+    height:20rem;
+    border-radius:10%;}
+.gridSS{
+    height:20rem;
+    border-radius:10%;}
+.bootstrapSS{
+    height:20rem;
+    border-radius:10%;}
+.desc{
+    margin-top:1rem;}
+.portp{
+    display:flex; 
+    justify-content: Center;}
+
+.contactimage{display:flex;justify-content:center;height:15rem; margin-top:5rem;}
+
+.wrapperone{display:grid; grid-template-columns: 1fr 1fr;grid-template-rows: 1fr 1fr 3fr; margin-top:2rem;
+    margin-left: 2rem;
+    margin-right:2rem;
+    gap:10px;}
+
+.phone{height:4rem}
+.email{height:4rem}
+.contact{display:flex;justify-content: center;align-items: center;}
+.phonetext{text-align: center;font-size:36pt}
+.emailtext{text-align: center;font-size:36pt}
+.address{color:rgb(192, 193, 195)}
+.map{display:flex;justify-content: center;align-items: center; grid-column:span 2; font-size:22pt;}
+.mapimage{height:300px; margin-right:3rem; border-radius: 10%;}
+
+@media (max-width:768px){
+    .bigtext{
+        font-family: 'Protest Riot', sans-serif;
+        color:white;
+        font-weight:bold;
+        font-size:24pt;
+        Padding-top:1rem;
+        margin-left:2rem;}
+    .devimage{
+        height:10rem; 
+        border-radius:20%;
+        margin-left:2rem;}
+    .littletext{
+        font-family: 'Diphylleia', serif;    
+        color:rgb(192, 193, 195);
+        font-size:12pt;
+        font-weight:bold;
+        margin-left:2rem;
+        margin-top:3rem;}
+    .lightbulb{
+        height:5rem;
+        margin-left:2rem;
+        margin-top:2rem;}
+    .biopic{
+        height:10rem;
+        border-radius: 40%;
+        float: left; 
+        margin-right:2rem; 
+        margin-top:3rem;} 
+    #bioflex{
+        display:Flex;
+        flex-direction:column;
+        gap:20px;}
+    .devpic{
+        height:10rem; 
+        margin-left:5rem; 
+        margin-top:1rem;}
+    .acheivements{
+        margin-left:1rem;
+        margin-right:1rem; 
+        margin-top:1rem;}
+    .skilldes{
+        margin-top:1rem; 
+        margin-left:1rem; 
+        font-size:12pt;}
+    .container1{
+        grid-template-columns: 150px 180px 180px;
+        grid-template-rows:auto;}
+    .box{padding-left:1rem;padding-right:1rem;}
+    .uiux{
+        height:5rem; 
+        border-radius:20%; 
+        margin-left:1rem;
+        margin-top:8rem}
+    #uitext{
+        margin-left:1rem;
+        font-size:12pt;}
+    .uitext{display:flex; flex-wrap:wrap;}
+    .developerpic{
+        height:7rem;
+        margin-left:1rem;}
+    .laptop{
+        height:6rem; 
+        margin-left:1rem; 
+        border-radius:20%;}
+    .wrapper{
+        display:grid; 
+        grid-template-columns:100px 100px 100px 100px;
+        margin-top:2rem;
+        margin-left: 10%;
+        gap:10px;}
+    .cssSS{
+        height:4rem;
+        border-radius:10%;}
+    .flexSS{
+        height:4rem;
+        border-radius:10%;}
+    .gridSS{
+        height:4rem;
+        border-radius:10%;}
+    .bootstrapSS{
+        height:4rem;
+        border-radius:10%;}
+    .portp{
+        display:flex; 
+        justify-content: Center;}
+    .portfolioh1{
+        text-align:center}
+    .contactimage{
+        display:flex;
+        justify-content:center;
+        height:6rem; 
+        margin-top:2rem;}
+    .phone{height:2rem}
+    .email{height:2rem}
+    .contact{display:flex;justify-content: center;align-items: center;}
+    .phonetext{text-align: center;font-size:12pt}
+    .emailtext{text-align: center;font-size:12pt}
+    .address{color:rgb(192, 193, 195);font-size:12pt}
+    .map{display:flex;justify-content: center;align-items: center; grid-column:span 2; font-size:22pt;}
+    .mapimage{height:100px; margin-right:3rem; border-radius: 10%;}
+}
+
+@media (min-width:769px) and (max-width:992px){
+    .bigtext{
+        font-family: 'Protest Riot', sans-serif;
+        color:white;
+        font-weight:bold;
+        font-size:36pt;
+        Padding-top:1rem;
+        margin-left:6rem;}
+    .devimage{
+        height:15rem; 
+        border-radius:20%;
+        margin-left:4rem;}
+    .littletext{
+        font-family: 'Diphylleia', serif;    
+        color:rgb(192, 193, 195);
+        font-size:20pt;
+        font-weight:bold;
+        margin-left:4rem;
+        margin-top:3rem;}
+    .lightbulb{
+        height:10rem;
+        margin-left:6rem;
+        margin-top:2rem;}
+    .biopic{
+        height:12rem;
+        border-radius: 40%;
+        float: left; 
+        margin-right:2rem; 
+        margin-top:3rem;} 
+    #bioflex{
+        display:Flex;
+        gap:20px;}
+    .devpic{
+        height:10rem; 
+        margin-left:5rem; 
+        margin-top:1rem;}
+    .acheivements{
+        margin-left:1rem;
+        margin-right:1rem;}
+    .skilldes{
+        margin-top:1rem; 
+        margin-left:1rem; 
+        font-size:14pt;}
+    .container1{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:auto;}
+    .box{margin-left:1rem;margin-right:2rem;height:6rem}
+    .uiux{
+        height:7rem; 
+        border-radius:20%; 
+        margin-left:1rem;
+        margin-top:8rem}
+    #uitext{
+        margin-left:1rem;
+        font-size:14pt;}
+    .uitext{display:flex; flex-wrap:wrap;}
+    .developerpic{
+        height:9rem;
+        margin-left:1rem;}
+    .laptop{
+        height:8rem; 
+        margin-left:1rem; 
+        border-radius:20%;}
+    .wrapper{
+        display:grid; 
+        grid-template-columns:100px 100px 100px 100px;
+        margin-top:2rem;
+        margin-left: 22%;
+        gap:10px;}
+    .cssSS{
+        height:4rem;
+        border-radius:10%;}
+    .flexSS{
+        height:4rem;
+        border-radius:10%;}
+    .gridSS{
+        height:4rem;
+        border-radius:10%;}
+    .bootstrapSS{
+        height:4rem;
+        border-radius:10%;}
+    .portp{
+        display:flex; 
+        justify-content: Center;}
+    .portfolioh1{
+        text-align:center}
+    .contactimage{
+        display:flex;
+        justify-content:center;
+        height:8rem; 
+        margin-top:2rem;}
+    .phone{height:3rem}
+    .email{height:3rem}
+    .contact{display:flex;justify-content: center;align-items: center;}
+    .phonetext{text-align: center;font-size:14pt}
+    .emailtext{text-align: center;font-size:14pt}
+    .address{color:rgb(192, 193, 195);font-size:14pt}
+    .map{display:flex;justify-content: center;align-items: center; grid-column:span 2; font-size:22pt;}
+    .mapimage{height:150px; margin-right:3rem; border-radius: 10%;}
+}
+
+@media (min-width:993px) and (max-width:1200px){
+    .bigtext{
+        font-family: 'Protest Riot', sans-serif;
+        color:white;
+        font-weight:bold;
+        font-size:40pt;
+        Padding-top:1rem;
+        margin-left:8rem;}
+    .devimage{
+        height:18rem; 
+        border-radius:20%;
+        margin-left:4rem;}
+    .littletext{
+        font-family: 'Diphylleia', serif;    
+        color:rgb(192, 193, 195);
+        font-size:22pt;
+        font-weight:bold;
+        margin-left:4rem;
+        margin-top:3rem;}
+    .lightbulb{
+        height:10rem;
+        margin-left:8rem;
+        margin-top:2rem;}
+    .biopic{
+        height:12rem;
+        border-radius: 40%;
+        float: left; 
+        margin-right:2rem; 
+        margin-top:3rem;} 
+    #bioflex{
+        display:Flex;
+        gap:20px;}
+    .devpic{
+        height:10rem; 
+        margin-left:5rem; 
+        margin-top:1rem;}
+    .acheivements{
+        margin-left:1rem;
+        margin-right:1rem;}
+    .skilldes{
+        margin-top:1rem; 
+        font-size:12pt;}
+    .container1{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:auto;}
+    .box{padding-left:6rem;padding-right:0rem;height:8rem}
+    .uiux{
+        height:10rem; 
+        border-radius:20%; 
+        margin-left:1rem;
+        margin-top:4rem}
+    #uitext{
+        margin-left:1rem;
+        font-size:12pt;}
+    .uitext{display:flex; flex-wrap:wrap;}
+    .developerpic{
+        height:12rem;
+        margin-left:1rem;}
+    .laptop{
+        height:10rem; 
+        margin-left:1rem; 
+        border-radius:20%;}
+    .wrapper{
+        display:grid; 
+        grid-template-columns:180px 180px 180px 180px;
+        margin-top:2rem;
+        margin-left:10rem;
+        gap:10px;}
+    .cssSS{
+        height:8rem;
+        border-radius:10%;}
+    .flexSS{
+        height:10rem;
+        border-radius:10%;}
+    .gridSS{
+        height:10rem;
+        border-radius:10%;}
+    .bootstrapSS{
+        height:10rem;
+        border-radius:10%;}
+    .portp{
+        display:flex; 
+        justify-content: Center;}
+    .portfolioh1{
+        text-align:center}
+    .contactimage{
+        display:flex;
+        justify-content:center;
+        height:14rem; 
+        margin-top:2rem;}
+    .phone{height:5rem}
+    .email{height:5rem}
+    .contact{display:flex;justify-content: center;align-items: center;}
+    .phonetext{text-align: center;font-size:16pt}
+    .emailtext{text-align: center;font-size:16pt}
+    .address{color:rgb(192, 193, 195);font-size:16pt}
+    .map{display:flex;justify-content: center;align-items: center; grid-column:span 2; font-size:22pt;}
+    .mapimage{height:200px; margin-right:3rem; border-radius: 10%;}
+}
